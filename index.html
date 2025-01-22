@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive API Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive API Viewer</h1>
+    <button id="viewUser" class="button">View User</button>
+    <div id="userDetails"></div>
+    <div id="dogSection" style="display: none;">
+      <p>Do you want to see the dog of this user?</p>
+      <button id="yesDog" class="button">Yes</button>
+      <img id="dogImage" class="image" style="display: none;" alt="Dog Image">
+      <button id="getAdvice" class="button" style="display: none;">Free Advice</button>
+      <p id="adviceText" class="advice" style="display: none;"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
